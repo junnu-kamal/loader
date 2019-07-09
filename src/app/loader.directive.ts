@@ -27,8 +27,6 @@ export class LoaderDirective implements OnInit {
   private AdjustScreen(){
     
     if(this.screen == "container"){
-      console.log(this.el.nativeElement.parentNode.clientHeight);
-      console.log(this.el.nativeElement.parentNode.clientWidth);
       this.el.nativeElement.style.height = this.el.nativeElement.parentNode.clientHeight+"px";
       this.el.nativeElement.style.width = this.el.nativeElement.parentNode.clientHeight+"px";
       this.el.nativeElement.style.backgroundColor = "#000000";
