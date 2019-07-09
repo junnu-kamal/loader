@@ -8,7 +8,7 @@ src/app/loader.directive.ts <br>
 config directive in the required module<br>
 
 <b>usage :</b><br><br>
-<appLoader size="medium" [display]="true"  screen = "container" ></appLoader> <br><br>
+<appLoader size="medium" [display]="true"  screen = "container" > <span></appLoader> </span> <br><br>
 size  :  "small|medium|large" (parameter will vary the loader size)<br>
 display : true | false (parameter will hide and show the loader)<br>
 screen : "full|container" (full =  loader will occupy entire screen , conatiner => loader will occupy only the parent div)<br>
