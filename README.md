@@ -1,17 +1,17 @@
-setup 
-step - 1 : git clone  https://github.com/junnu-kamal/loader.git
-step - 2 : npm install
-make sure to place style.css  globally in the project
+<b>setup </b><br>
+step - 1 : git clone  https://github.com/junnu-kamal/loader.git <br>
+step - 2 : npm install<br>
+make sure to place style.css  globally in the project<br>
 
-directive location  :
-src/app/loader.directive.ts
-config directive in the required module
+<b>directive location  :</b>
+src/app/loader.directive.ts <br>
+config directive in the required module<br>
 
-usage :
-<appLoader size="medium" [display]="true"  screen = "container" ></appLoader>
-size  :  "small|medium|large" (parameter will vary the loader size)
-display : true | false (parameter will hide and show the loader)
-screen : "full|container" (full =  loader will occupy entire screen , conatiner => loader will occupy only the parent div)
+<b>usage :</b>
+<appLoader size="medium" [display]="true"  screen = "container" ></appLoader> <br>
+size  :  "small|medium|large" (parameter will vary the loader size)<br>
+display : true | false (parameter will hide and show the loader)<br>
+screen : "full|container" (full =  loader will occupy entire screen , conatiner => loader will occupy only the parent div)<br>
 
 
 
