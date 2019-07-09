@@ -3,11 +3,11 @@ step - 1 : git clone  https://github.com/junnu-kamal/loader.git <br>
 step - 2 : npm install<br>
 make sure to place style.css  globally in the project<br>
 
-<b>directive location  :</b>
+<b>directive location  :</b><br>
 src/app/loader.directive.ts <br>
 config directive in the required module<br>
 
-<b>usage :</b>
+<b>usage :</b><br>
 <appLoader size="medium" [display]="true"  screen = "container" ></appLoader> <br>
 size  :  "small|medium|large" (parameter will vary the loader size)<br>
 display : true | false (parameter will hide and show the loader)<br>
